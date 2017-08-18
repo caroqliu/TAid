@@ -22,16 +22,14 @@ body, html {
 }
 #joyce {
   flex: .5;
-  background: lightblue;
   /* Just so it's visible */
-  padding: 20px;
+  padding-right: 15px;
 }
 #caroline {
   flex: .5;
   /* Grow to rest of container */
-  background: lightgreen;
   /* Just so it's visible */
-  padding: 20px;
+  padding-left: 15px;
 }
 
 #contact {
