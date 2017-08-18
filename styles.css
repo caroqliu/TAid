@@ -5,6 +5,11 @@ body, html {
   background-color: #998FB8;
 }
 
+h1 {
+  font-size: 48pt;
+  margin-bottom: 0;
+}
+
 #intro {
   height: 100%;
   background-color: #998FB8;
