@@ -2,14 +2,15 @@ body, html {
   font-family: 'Inconsolata', monospace;
   height: 100%;
   margin: 0;
-  background-color: grey;
+  background-color: #998FB8;
 }
 
 #intro {
   height: 100%;
-  background-color: grey;
+  background-color: #998FB8;
   padding-top: 100px;
   padding-left: 100px;
+  color: white;
 }
 
 #about {
@@ -33,6 +34,27 @@ body, html {
 }
 
 #contact {
-  background-color: grey;
+  background-color: #998FB8;
   padding: 100px;
+  color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button {
+  background-color: white;
+  border-radius: 12px;
+  border: none;
+  color: #998FB8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 180px;
 }
