@@ -1,5 +1,20 @@
-body {
+body, html {
   font-family: 'Inconsolata', monospace;
+  height: 100%;
+  margin: 0;
+  background-color: grey;
+}
+
+#intro {
+  height: 100%;
+  background-color: grey;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+#about {
+  background-color: white;
+  padding: 100px;
 }
 
 #team {
@@ -17,4 +32,9 @@ body {
   background: lightgreen;
   /* Just so it's visible */
   padding: 20px;
+}
+
+#contact {
+  background-color: grey;
+  padding: 100px;
 }
