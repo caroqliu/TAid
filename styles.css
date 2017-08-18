@@ -1,26 +1,51 @@
 body, html {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Merriweather', serif;
+  font-size: 10pt;
   height: 100%;
   margin: 0;
-  background-color: #998FB8;
+  font-weight: 300;
+  color: #999;
+  line-height: 1.8;
 }
 
 h1 {
-  font-size: 48pt;
+  font-size: 4em;
   margin-bottom: 0;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 300;
+  color: #000;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 #intro {
   height: 100%;
-  background-color: #998FB8;
-  padding-top: 100px;
-  padding-left: 100px;
+  text-shadow: 0px 0px 5px #000;
+  background-image: url("people.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 8%;
+  padding-left: 8%;
   color: white;
 }
 
 #about {
   background-color: white;
-  padding: 100px;
+  padding: 8%;
 }
 
 #team {
@@ -38,9 +63,9 @@ h1 {
   padding-left: 15px;
 }
 
-#contact {
-  background-color: #998FB8;
-  padding: 100px;
+#contact{
+  background-color: #333333;
+  padding: 8%;
   color: white;
 }
 
@@ -52,14 +77,26 @@ input[type=text] {
 }
 
 .button {
-  background-color: white;
+  background: transparent;
+  border: 1px solid #fff;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
   border-radius: 12px;
-  border: none;
-  color: #998FB8;
-  padding: 15px 32px;
+  color: #fff;
+  padding: 16px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  width: 180px;
+  font-size: .8em;
+  box-shadow: 0px 0px 5px #333;
+  text-shadow: 0px 0px 5px #000;
+  margin-right: 10px;
+}
+
+.form label {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
